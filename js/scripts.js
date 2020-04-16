@@ -5,3 +5,11 @@ var onesTranslate = function(number){
   console.log("Ones place: " + number);
   return arrayOnes[number];
 };
+
+var tensTranslate = function (number) {
+  var arrayTens = ["", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"];
+  console.log("Starting number: " + number);
+  number = parseInt(number / 10) % 10;
+  console.log("Tens place: " + number);
+  return arrayTens[number];
+};

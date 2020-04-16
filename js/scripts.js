@@ -21,3 +21,11 @@ var hundredsTranslate = function (number) {
   console.log("Hundreds place: " + number);
   return arrayHundreds[number];
 };
+
+var thousandsTranslate = function (number) {
+  var arrayThousands = ["", "M", "MM", "MMM"];
+  console.log("Starting number: " + number);
+  number = parseInt(number / 1000) % 10;
+  console.log("Thousands place: " + number);
+  return arrayThousands[number];
+};

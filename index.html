@@ -9,6 +9,21 @@
   </head>
 
   <body>
-    
+    <div class="container">
+      <h1>Roman Numeral Translator</h1>
+
+      <form id="numeralForm">
+        <div class="form-group">
+          <label for="number">Enter a whole number between 0 and 3999</label>
+          <input type="number" min="0" step="1" max="3999" class="form-control" id="number">
+        </div>
+
+        <button type="submit" class="btn btn-success">Translate!</button>
+      </form>
+
+      <div id="response">
+        <p>The Arabic numeral <span id="arabic"></span> is expressed as a Roman numeral as: <span id="roman"></span>.</p>
+      </div>
+    </div>
   </body>
 </html>

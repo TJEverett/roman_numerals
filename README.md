@@ -1,6 +1,6 @@
 # Roman Numeral Translator
 
-#### Translate Arabic numerals into Roman numerals, 04/16/2020
+#### Translate Arabic numerals into Roman numerals, 04/17/2020
 
 #### By _**Tristen Everett**_
 
@@ -28,10 +28,6 @@ Has an input for the user to enter a whole Arabic numeral between 0 and 3999. Th
 3. Select "save as" and save file to your desktop.
 4. Go to desktop and right-click the downloaded file and tell it to extract all.
 5. Open the newly extracted file and launch the index.html file with your prefered browser.
-
-## Known Bugs
-
-Program is unfinished and not currently working
 
 ## Technologies Used
 
